@@ -1,0 +1,41 @@
+main {
+   padding: 1rem 10vw;
+   display: flex;
+   justify-content: space-between;
+   font-family: Helvetica, Tahoma, sans-serif;
+   font-size: 100%;
+}
+
+body {
+   background: #E5E5E5;
+   margin: 0;
+}
+
+.topbar {
+	display: flex;
+justify-content: center;
+background: none repeat scroll 0% 0% #F5F5F5;
+font-family: sans-serif;
+height: 30px;
+align-items: center;
+box-shadow: 0px 0px 10px -5px #6C6C6C;
+font-weight: bold;
+
+}
+
+.topbar-inner {
+	height: 100%;
+display: flex;
+}
+
+.topbar-inner-link {
+	text-decoration: none;
+	color: #000;
+	margin: 0px 0.5rem;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+.topbar-inner-link:hover {
+border-bottom: 2px solid rgb(29, 51, 49);
+}

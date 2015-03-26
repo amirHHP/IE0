@@ -1,0 +1,39 @@
+
+.header{
+width: 100%;
+display: flex;
+background: grey;
+border-radius: 20px;
+overflow: hidden;
+height: 50vh;
+}
+
+.profile-info{
+	display: flex;
+flex-direction: column;
+width: 30%;
+justify-content: center;
+align-items: center;
+background: #323232;
+color: #fff;
+}
+.user-photo {
+   width: 100px;
+   height: 100px;
+   margin-right: 0.5rem;
+   border-radius: 50px;
+
+}
+.username {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+.profile-bg {
+	width: 70%;
+	height: auto;
+}
+.uni-city {
+    margin: 0.5rem 0;
+    font-size: 0.8rem;
+    text-align: center;
+}
