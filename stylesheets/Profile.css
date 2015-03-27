@@ -1,4 +1,7 @@
-
+main{
+	display: flex;
+flex-direction: column;
+}
 .header{
 width: 100%;
 display: flex;
@@ -9,7 +12,7 @@ height: 50vh;
 }
 
 .profile-info{
-	display: flex;
+display: flex;
 flex-direction: column;
 width: 30%;
 justify-content: center;
@@ -36,4 +39,39 @@ color: #fff;
     margin: 0.5rem 0;
     font-size: 0.8rem;
     text-align: center;
+}
+
+.more-info{
+	display: flex;
+
+}
+
+.more-left, .more-middle, .more-right {
+	width: 32.3%;
+}
+.card{
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	border-radius: 17px;
+	height: auto;
+	margin-top: 15px;
+	padding: 0.5rem;
+	margin-right: 15px;
+
+}
+
+.photos{
+	display: flex;
+	flex-direction: column;
+}
+.title{
+	font-size: 20px;
+	font-family: raleway, "droid sans";
+	margin: 10px;
+}
+
+.circle-photo img{
+	width: 48px;
+	height: 48px;
 }
