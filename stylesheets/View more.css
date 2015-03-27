@@ -1,0 +1,12 @@
+.items{
+	display: flex;
+}
+
+.item{
+	width: 16%;
+	height: 20%;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	margin-right: 10px;
+}
