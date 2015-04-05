@@ -43,6 +43,7 @@ color: #fff;
 
 .more-info{
 	display: flex;
+	justify-content: space-between;
 
 }
 
@@ -57,14 +58,47 @@ color: #fff;
 	height: auto;
 	margin-top: 15px;
 	padding: 0.5rem;
-	margin-right: 15px;
+	border-top: 0.45rem solid black;
+}
 
+.orange{
+	border-top: 0.45rem solid orange;
+}
+
+.blue{
+	border-top: 0.45rem solid blue;
+}
+.green{
+	border-top: 0.45rem solid green;
+ }
+
+.red{
+	border-top: 0.45rem solid #E46F61;
+}
+
+.red2{
+	border-top: 0.45rem solid #BC5679;
+}
+
+.blue2{
+	border-top: 0.45rem solid #6F85BF;
+}
+.card-content {
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+
+.card-item {
+	display: flex;
 }
 
 .photos{
 	display: flex;
 	flex-direction: column;
 }
+
 .title{
 	font-size: 20px;
 	font-family: raleway, "droid sans";
@@ -74,4 +108,39 @@ color: #fff;
 .circle-photo img{
 	width: 48px;
 	height: 48px;
+}
+
+.inYourCircle{
+	font-weight: bold;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+.inYourCircle span{
+	color: grey;
+	text-align: right;
+	vertical-align: right;
+	font-weight: lighter;
+}
+
+.subtitle{
+	font-weight: bold;
+	width: 
+}
+
+.subtitle-line {
+	width: 100px;
+}
+
+.subtitle-underline {
+	border-bottom: 1px solid grey;
+	padding-bottom: 4px;
+	margin-bottom: 4px;
+}
+
+.answer{
+	color: grey;
+	padding-bottom: 30px;
 }

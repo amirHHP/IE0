@@ -2,11 +2,24 @@
 	display: flex;
 }
 
+.name{
+	font-weight: bold;
+}
+
+.uni{
+	color: grey;
+}
 .item{
 	width: 16%;
 	height: 20%;
 	background-color: white;
 	display: flex;
 	flex-direction: column;
-	margin-right: 10px;
+	margin: 0.5rem 0;
 }
+.item img {
+	width: 100%;
+}
+.item div {
+	padding: 0.1rem 0.5rem;
+} 
