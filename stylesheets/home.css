@@ -48,6 +48,8 @@ h6 {
    border: 1px solid rgb(224, 224, 224);
    display: flex;
    flex-direction: column;
+   margin-bottom: 10px;
+   width: 100%;
 }
 .card_top {
    display: flex;
@@ -105,8 +107,9 @@ h6 {
    box-shadow: 1px 1px 8px -5px rgb(131, 131, 131);
 }
 .button-add-person img {
-   width: 80%;
-   height: 80%;
+   width: 70%;
+   height: 70%;
+   padding: 4px;
 }
 .card_bottom {
    background-color: #F5F5F5;
@@ -126,7 +129,8 @@ h6 {
 
 .buts{
    display: flex;
-
+   width: 100%;
+   height: 40px;
 }
 
 .plus{
@@ -135,6 +139,7 @@ border: 1px solid #B1B1B1;
       box-shadow: 0px 0px 13px -11px #000;
       padding: 5px;
       margin: 7px;
+      background-color: white;
 
 }
 
@@ -144,12 +149,20 @@ border: 1px solid #B1B1B1;
       box-shadow: 0px 0px 13px -11px #000;
       padding: 5px;
       margin: 7px;
+      background-color: white;
 }
 .card_middle img {
    max-width: 100%;
 }
 
-
+.card_middle p {
+   padding-bottom: 15px;
+   font-size: 13px;
+}
+.share-people{
+   display: flex;
+   width: 30%;
+}
 
 /*grey box comments*/
 
@@ -198,4 +211,35 @@ border: 1px solid #B1B1B1;
    padding-top: 5px;
    margin-top: 15px;
 
+}
+
+/* may know*/
+.title{
+   display: flex;
+   font-family: raleway;
+   font-size: 18px; 
+   justify-content: space-between;
+}
+
+.title .two {
+   font-size: 11px;
+}
+
+.people-know{
+   display: flex;
+   width: 100%;
+   flex-direction: column;
+
+}
+.know-name{
+
+}
+
+.know-photo{
+   display: flex;
+
+}
+
+.add-but{
+   display: flex;
 }

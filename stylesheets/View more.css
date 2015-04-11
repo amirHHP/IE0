@@ -23,3 +23,25 @@
 .item div {
 	padding: 0.1rem 0.5rem;
 } 
+.friends{
+	margin-top: 5px;
+}
+
+.item button {
+  margin: 7px;
+  background-color: white;
+  border-style: none;
+  border: 1px solid #B1B1B1;
+  border-radius: 2px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item button img {
+  height: 1.7rem;
+  width: 1.7rem;
+  margin-right: 0.5rem;
+}
