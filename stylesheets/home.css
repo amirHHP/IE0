@@ -228,8 +228,8 @@ border: 1px solid #B1B1B1;
 .people-know{
    display: flex;
    width: 100%;
-   flex-direction: column;
-
+   padding: 6px;
+justify-content: space-between;
 }
 .know-name{
 
@@ -237,6 +237,7 @@ border: 1px solid #B1B1B1;
 
 .know-photo{
    display: flex;
+   padding: 6px;
 
 }
 

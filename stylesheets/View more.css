@@ -1,3 +1,6 @@
+main{
+	padding: 3rem 10vw;
+}
 .items{
 	display: flex;
 }
@@ -11,7 +14,6 @@
 }
 .item{
 	width: 16%;
-	height: 20%;
 	background-color: white;
 	display: flex;
 	flex-direction: column;
@@ -35,13 +37,20 @@
   border-radius: 2px;
   padding-top: 5px;
   padding-bottom: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .item button img {
   height: 1.7rem;
   width: 1.7rem;
   margin-right: 0.5rem;
+  vertical-align: middle;
+}
+
+.item button span {
+	vertical-align: middle;
+}
+
+.title{
+	font-weight: bold;
+	padding-top: 10px;
 }
