@@ -7,8 +7,13 @@ main{
 
 .name{
 	font-weight: bold;
+
 }
 
+.name:hover{
+	color: blue;
+	text-shadow: 4px 3px 1px #949494;
+}
 .uni{
 	color: grey;
 }
