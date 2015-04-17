@@ -1,45 +1,46 @@
 main{
 	display: flex;
-flex-direction: column;
-padding: 3rem 10vw;
+	flex-direction: column;
+	padding: 3rem 10vw;
 }
+
 .header{
-width: 100%;
-display: flex;
-background: grey;
-border-radius: 20px;
-overflow: hidden;
-height: 50vh;
+	width: 100%;
+	display: flex;
+	background: grey;
+	border-radius: 40px;
+	overflow: hidden;
+	height: 50vh;
 }
 
 .profile-info{
-display: flex;
-flex-direction: column;
-width: 30%;
-justify-content: center;
-align-items: center;
-background: #323232;
-color: #fff;
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	justify-content: center;
+	align-items: center;
+	background: #323232;
+	color: #fff;
 }
 .user-photo {
-   width: 100px;
-   height: 100px;
-   margin-right: 0.5rem;
-   border-radius: 50px;
+	width: 100px;
+	height: 100px;
+	margin-right: 0.5rem;
+	border-radius: 50px;
 
 }
 .username {
-    font-size: 1.5rem;
-    margin-top: 0.5rem;
+	font-size: 1.5rem;
+	margin-top: 0.5rem;
 }
 .profile-bg {
 	width: 70%;
 	height: auto;
 }
 .uni-city {
-    margin: 0.5rem 0;
-    font-size: 0.8rem;
-    text-align: center;
+	margin: 0.5rem 0;
+	font-size: 0.8rem;
+	text-align: center;
 }
 
 .more-info{
@@ -55,7 +56,7 @@ color: #fff;
 	display: flex;
 	flex-direction: column;
 	background-color: white;
-	border-radius: 17px;
+	border-radius: 34px;
 	height: auto;
 	margin-top: 15px;
 	padding: 0.5rem;
@@ -72,7 +73,7 @@ color: #fff;
 }
 .green{
 	border-top: 0.45rem solid green;
- }
+}
 
 .red{
 	border-top: 0.45rem solid #E46F61;
@@ -129,7 +130,6 @@ color: #fff;
 
 .subtitle{
 	font-weight: bold;
-	width: 
 }
 
 .subtitle-line {
@@ -150,4 +150,9 @@ color: #fff;
 .answer span{
 	font-weight: bold;
 	color: black;
+}
+
+.edit{
+	padding-left: 10px;
+	color: blue;
 }

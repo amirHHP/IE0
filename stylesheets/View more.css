@@ -20,30 +20,38 @@ main{
 	margin: 0.5rem 0;
 }
 .item img {
-	width: 100%;
+	width: auto;
+	height: 170px;
 }
 .item div {
 	padding: 0.1rem 0.5rem;
 } 
 .friends{
 	margin-top: 5px;
+	flex-grow: 1;
+	font-weight: bold;
+}
+
+.friends span{
+	font-weight: lighter;
+	color: gray;
 }
 
 .item button {
-  margin: 7px;
-  background-color: white;
-  border-style: none;
-  border: 1px solid #B1B1B1;
-  border-radius: 2px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+	margin: 7px;
+	background-color: white;
+	border-style: none;
+	border: 1px solid #B1B1B1;
+	border-radius: 2px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 .item button img {
-  height: 1.7rem;
-  width: 1.7rem;
-  margin-right: 0.5rem;
-  vertical-align: middle;
+	height: 1.7rem;
+	width: 1.7rem;
+	margin-right: 0.5rem;
+	vertical-align: middle;
 }
 
 .item button span {
@@ -51,6 +59,10 @@ main{
 }
 
 .title{
-	font-weight: bold;
+	
 	padding-top: 10px;
+	font-size: 22px;
+}
+.maintitle{
+	width: 100%;
 }
