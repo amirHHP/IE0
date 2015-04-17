@@ -19,15 +19,15 @@ h6 {
 
 
 .new-post textarea {
-      
-      border: 1px solid #B1B1B1;
-      border-radius: 2px;
-      max-width: 100%;
-      max-height: 85px;
-      min-width: 100%;
-      min-height: 85px;
-      box-shadow: inset 0px 0px 10px -6px black;
-      background-color: white;
+
+   border: 1px solid #B1B1B1;
+   border-radius: 2px;
+   max-width: 100%;
+   max-height: 85px;
+   min-width: 100%;
+   min-height: 85px;
+   box-shadow: inset 0px 0px 10px -6px black;
+   background-color: white;
 }
 .new-post-buttons {
    display: flex;
@@ -57,22 +57,30 @@ h6 {
    padding: 0.5rem;
 }
 
-
+.user-share-mode{
+   color: gray;
+}
+.user-share-time{
+   color: gray;
+}
 
 .user-plused {
    font-size: 0.85rem;
    border-bottom: 1px solid rgb(240, 240, 240);
    padding-bottom: 0.5rem;
+   align-items: center;
+   display: flex;
 
 }
 .user-plused-name {
    font-weight: bold;
 }
 .user-plused img {
-   width: 35px;
-   height: 35px;
+   width: 30px;
+   height: 30px;
    margin-right: 0.5rem;
    border-radius: 3px;
+   
 }
 .user-holder {
    display: flex;
@@ -116,7 +124,8 @@ h6 {
    display: flex;
    flex-direction: column;
    padding: 0.5rem;
-	font-size: 0.8rem;
+   font-size: 0.8rem;
+   border-top: 1px solid #CBCBCB;
 }
 
 
@@ -134,22 +143,22 @@ h6 {
 }
 
 .plus{
-border: 1px solid #B1B1B1;
-      border-radius: 2px;
-      box-shadow: 0px 0px 13px -11px #000;
-      padding: 5px;
-      margin: 7px;
-      background-color: white;
+   border: 1px solid #B1B1B1;
+   border-radius: 2px;
+   box-shadow: 0px 0px 13px -11px #000;
+   padding: 5px;
+   margin: 7px;
+   background-color: white;
 
 }
 
 .share{
-border: 1px solid #B1B1B1;
-      border-radius: 2px;
-      box-shadow: 0px 0px 13px -11px #000;
-      padding: 5px;
-      margin: 7px;
-      background-color: white;
+   border: 1px solid #B1B1B1;
+   border-radius: 2px;
+   box-shadow: 0px 0px 13px -11px #000;
+   padding: 5px;
+   margin: 7px;
+   background-color: white;
 }
 .card_middle img {
    max-width: 100%;
@@ -178,12 +187,12 @@ border: 1px solid #B1B1B1;
 .comment-writer {
    display: flex;
    align-items: center;
-	margin-bottom: 0.5rem;
+   margin-bottom: 0.5rem;
 }
 .comment-writer-photo {
    width: 40px;
-	height: 40px;
-	margin-right: 0.5rem;
+   height: 40px;
+   margin-right: 0.5rem;
 }
 .comment-writer-photo img {
   height: 100%;
@@ -197,6 +206,9 @@ border: 1px solid #B1B1B1;
 }
 .comment-context {
   font-size: 0.9em;
+}
+.fa {
+   direction: rtl;
 }
 .add-comment textarea{
    height: 85px;
@@ -219,6 +231,8 @@ border: 1px solid #B1B1B1;
    font-family: raleway;
    font-size: 18px; 
    justify-content: space-between;
+   padding: 15px;
+   color: gray;
 }
 
 .title .two {
@@ -228,19 +242,54 @@ border: 1px solid #B1B1B1;
 .people-know{
    display: flex;
    width: 100%;
-   padding: 6px;
-justify-content: space-between;
+   padding: 5px 5px 5px 15px;
+   box-sizing: border-box;
+   align-items: center;
 }
 .know-name{
-
+   font-weight: bold;
+}
+.know-friends{
+   color: gray;
+}
+.names{
+   flex-grow: 1;
+   padding: 5px;
 }
 
 .know-photo{
    display: flex;
-   padding: 6px;
 
 }
-
+.no{
+   padding-right: 5px;
+}
 .add-but{
    display: flex;
+}
+
+.big{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+.goright {
+   width: 30%;
+   display: flex;
+   flex-direction: column;
+   border-left: 1px solid #F5F5F5;
+}
+.card_middle-big {
+   width: 70%;
+   display: flex;
+   flex-direction: column;
+}
+.card_middle-big img {
+
+}
+.card_middle-big-img-outer {
+   text-align: center;
+}
+.card_top-big {
+   flex-grow: 1;
 }
