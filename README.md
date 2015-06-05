@@ -11,3 +11,10 @@ http://ceit.aut.ac.ir/~bakhshis/IE/S94-HW-3/IEPRO.xml
 
 view more: 
 http://ceit.aut.ac.ir/~bakhshis/IE/S94-HW-3/IEPRO.xml
+
+کل اتفاقات قرار است با:
+jQuery/AJAX/XML 
+پیاده سازی شود
+
+اطلاعات بیشتر در فایل https://github.com/amirHHP/IE0/blob/master/S94-HW3.pdf
+توضیح داده شده.
