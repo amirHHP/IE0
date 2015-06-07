@@ -123,18 +123,25 @@ function parse_post(document)
 				$post_html += $tags_text[i]+" ";
 		}
 		$post_html += "'>"+
-		"<div class='post-body'>"+ 
-		"<div class='post-publish-info'>"+
-		"<img class='circle-pic prof-pic' src='"+$profile_pic+"' alt=''/>"+
-		"<div class='name-date'>"+
-		"<div class='user-name'>"+$author+"</div>"+
-		"<div class='date'>"+$date+"</div>"+
+		"<div class='card'>"+ 
+		"<div class='card_top'>"+
+		"<div class='user-holder'>"+
+		"<img class='user-photo' src='"+$profile_pic+"' alt=''/>"+
+		"<div class='user-info'>"+
+		"<span class='user-name'>"+$author+"</span>"+
+		"<div class='user-info-bottom'>"+
+		"<div class='user-share-time'>"+$date+"</div>"+
 		"</div>"+
-		"<button class='add-friend'/>"+
 		"</div>"+
-		"<div class='post-content'>"+
+		"<div class='button-add-person'>"+
+		"<img src='../images/add_user.svg'>"
+		"</div>"+
+		"</div>"+
+		"</div>"+
+		"<div class='card_middle'>"+
+		"</div>"+
 		"<!-- image maybe placed here -->"+
-		"<p class='post-content-text-fa' >"+$text+"</p>"+
+		"<p class='card_middle' >"+$text+"</p>"+
 		$tags_html+
 		"</div>"+
 		"<div class='post-like-area'>"+
